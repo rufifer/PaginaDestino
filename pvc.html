@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,39 +15,83 @@
     <!-- Your custom styles (optional) -->
     <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
 
+    <!--Main Navigation-->
+    <header>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+            <div class="container">
 
-    
-     <!-- SCRIPTS -->
-    <!-- JQuery -->
-    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="js/popper.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="js/mdb.min.js"></script>
-    <!-- Carousel options -->
-    <script>
-        $('.carousel').carousel({
-            interval: 2500,
-        })
-    </script>
+                <!-- Navbar brand -->
+                <a class="navbar-brand" href="#"><img src="img/Logotipo5.png" style="width:20%; "></a>
 
-    <script>
-        new WOW().init();
-    </script>
+                <!-- Collapse button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+                    aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-    <!-- script para recoger menu collapse nav -->
-    <script>
+                <!-- Collapsible content -->
+                <div class="collapse navbar-collapse" id="basicExampleNav">
 
-        $(document).ready(function () {
-            $(".nav-item").click(function () {
-                $('.navbar-toggler').click();
+                    <!-- Links -->
+                    <ul class="navbar-nav mr-auto smooth-scroll ">
+                        <li class="nav-item ">
+                            <a class="nav-link white-text" href="#intro"
+                                style="text-shadow:2px 3px 30px rgb(202, 186, 186)">Inicio</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link white-text " href="#best-features">Empresa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link white-text" href="#examples">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link white-text" href="#gallery">Galeria</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link white-text" href="#contact">Contacto</a>
+                        </li>
+                    </ul>
+
+                    <!-- Collapsible content -->
+
+                </div>
+        </nav>
+        <!--/.Navbar-->
+
+        <!-- SCRIPTS -->
+        <!-- JQuery -->
+        <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+        <!-- Bootstrap tooltips -->
+        <script type="text/javascript" src="js/popper.min.js"></script>
+        <!-- Bootstrap core JavaScript -->
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <!-- MDB core JavaScript -->
+        <script type="text/javascript" src="js/mdb.min.js"></script>
+        <!-- Carousel options -->
+        <script>
+            $('.carousel').carousel({
+                interval: 2500,
+            })
+        </script>
+
+        <script>
+            new WOW().init();
+        </script>
+
+        <!-- script para recoger menu collapse nav -->
+        <script>
+
+            $(document).ready(function () {
+                $(".nav-item").click(function () {
+                    $('.navbar-toggler').click();
+                });
             });
-        });
 
-    </script>
+        </script>
 </body>
+
 </html>
