@@ -7,11 +7,14 @@ header,
 
 #intro {
   /* background: url("https://onedrive.live.com/embed?resid=305DDB16B8500DDD%212602&authkey=%21AEAt0nbUEp1A434&width=4000&height=3000")no-repeat center center fixed;*/
-  background-image: url("../img/C11.webp") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-image: url("../img/C11.webp");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 .navbar {
   background-color: rgb(141, 153, 180);
